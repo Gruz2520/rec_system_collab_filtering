@@ -5,6 +5,7 @@ Graphs from plotly.express may not be displayed on github.
 
 ## Requirements
 all requirements for google collab in requirements.txt 
+
 main:
 - kaggle API token
 - fastai==2.7.13
