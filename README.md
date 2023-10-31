@@ -15,7 +15,18 @@ main:
 - scipy==1.11.3
 
 ## Dataset
+Dataset rating
+- userId : unique id for each user who made an evaluation
+- movieId : unique id of the movie that was rated by the user
+- rating : rating for the corresponding movie by the corresponding user
+- timestamp : time of the rating
 
+Dataset movies
+- movieId :  unique id of the movie
+- title : movie title with release date
+- genres : list of genres for corresponding movie
+
+## Links
 dataset: https://www.kaggle.com/datasets/gargmanas/movierecommenderdataset
 
 main_library (suprise): https://surprise.readthedocs.io/en/stable/index.html
